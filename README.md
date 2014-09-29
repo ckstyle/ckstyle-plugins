@@ -8,12 +8,13 @@ plugins of ckstyle
 
 ```javascript
 
-function (code, options) {
+function handle(code, options) {
     var result = code;
     // ... handle code here using options.
     return result  // return transformed css code here.
 }
 
+module.exports = handle
 ```
 
 ## Demo
